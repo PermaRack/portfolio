@@ -55,4 +55,6 @@ if catalog_path.exists():
  for code, text in catalog['descriptions'].items():
   page = ROOT / f"courses/cst-{code.lower()}.html"
   section = '<section class="content-section"><h2>Course description</h2><p>' + esc(text) + '</p><p class="source-note">Source: CSUMB ' + esc(catalog['catalog_year']) + ' archived catalog.</p><a class="textlink" href="' + esc(catalog['source_url']) + '">View CSUMB catalog source ↗</a></section>'
+  if code in catalog.get('owner_supplied_codes', []):
+   section = '<section class="content-section"><h2>Course description</h2><p>' + esc(text) + '</p><p class="source-note">Source: CSUMB course catalog description supplied by the portfolio owner.</p><a class="textlink" href="https://catalog.csumb.edu/">View CSUMB catalog ↗</a></section>'
   page.write_text(re.sub(r'<section class="content-section"><h2>Course description</h2>.*?</section>', lambda m: section, page.read_text(), count=1, flags=re.S))
