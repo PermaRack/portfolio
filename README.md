@@ -13,8 +13,6 @@ The site will grow throughout the program and continue as my personal portfolio 
 - Catalog descriptions, final-project placeholders, and space for course reflections.
 - An independent AI/Gaming homelab project showcase covering completed work, architecture decisions, lessons learned, and planned development.
 
-The CST 349 Industry Expert Interview Report remains a placeholder until I complete that assignment. Final projects and reflections will be added as I finish each course.
-
 ## Site structure
 
 | Location | Purpose |
@@ -61,14 +59,6 @@ The preview is available at [localhost:8000](http://localhost:8000).
 - Check the affected pages on a narrow screen.
 - Review project status and contact details for accuracy.
 - Commit to `main` and confirm the Pages deployment succeeds.
-
-## Academic scope
-
-My course pages follow the 15 courses scheduled in my ILP. Completed prerequisites and requirements marked “needed” are excluded. CST 315 is my selected elective; CST 325 and CST 383 are not scheduled.
-
-CST 499 is planned for Spring 2028, Term B, with expected graduation in Summer 2028.
-
-Twelve course descriptions come from the CSUMB 2025–2026 archived catalog. The descriptions for CST 315, CST 328, and CST 329 were added separately from catalog text. Catalog years and descriptions can be reviewed as the program progresses.
 
 ## Future additions
 
