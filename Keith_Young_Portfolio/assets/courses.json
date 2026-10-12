@@ -1,0 +1,107 @@
+[
+  {
+    "code": "300",
+    "title": "Graduation Writing Assessment for Computing and Design",
+    "term": "Fall 2026",
+    "session": "A",
+    "summary": "Academic research, ethical argument, and professional writing in computing and design."
+  },
+  {
+    "code": "349",
+    "title": "Computer Science Proseminar",
+    "term": "Fall 2026",
+    "session": "A",
+    "summary": "Professional preparation, goal setting, collaboration, and connecting computer science study to a career."
+  },
+  {
+    "code": "338",
+    "title": "Software Design",
+    "term": "Fall 2026",
+    "session": "B",
+    "summary": "Software design and the organization of maintainable programs."
+  },
+  {
+    "code": "363",
+    "title": "Introduction to Database Systems",
+    "term": "Spring 2027",
+    "session": "A",
+    "summary": "Database systems and the organization, storage, and retrieval of information."
+  },
+  {
+    "code": "334",
+    "title": "Operating Systems",
+    "term": "Spring 2027",
+    "session": "B",
+    "summary": "Operating system concepts and the management of computing resources."
+  },
+  {
+    "code": "311",
+    "title": "Introduction to Computer Networks",
+    "term": "Summer 2027",
+    "session": "A",
+    "summary": "Computer networking concepts and communication between connected systems."
+  },
+  {
+    "code": "336",
+    "title": "Internet Programming",
+    "term": "Summer 2027",
+    "session": "B",
+    "summary": "Programming for websites and internet applications."
+  },
+  {
+    "code": "315",
+    "title": "Introduction to Cybersecurity",
+    "term": "Summer 2027",
+    "session": "B",
+    "summary": "Cybersecurity foundations and protecting computing systems and information."
+  },
+  {
+    "code": "370",
+    "title": "Design and Analysis of Algorithms",
+    "term": "Fall 2027",
+    "session": "A",
+    "summary": "Algorithm design and the analysis of computational efficiency."
+  },
+  {
+    "code": "462S",
+    "title": "Race, Gender, Class in the Digital World",
+    "term": "Fall 2027",
+    "session": "B",
+    "summary": "The relationship between technology, social identity, and equity in the digital world."
+  },
+  {
+    "code": "328",
+    "title": "Digital Art and Design",
+    "term": "Fall 2027",
+    "session": "B",
+    "summary": "Digital visual communication and design."
+  },
+  {
+    "code": "438",
+    "title": "Software Engineering",
+    "term": "Fall 2027",
+    "session": "B",
+    "summary": "Engineering practices for planning, developing, and maintaining software."
+  },
+  {
+    "code": "329",
+    "title": "Reasoning with Logic",
+    "term": "Spring 2028",
+    "session": "A",
+    "summary": "Logical reasoning and its application to problem solving."
+  },
+  {
+    "code": "489",
+    "title": "Capstone Project Planning",
+    "term": "Spring 2028",
+    "session": "A",
+    "summary": "Planning and proposing a substantial capstone project."
+  },
+  {
+    "code": "499",
+    "title": "Computer Science Capstone",
+    "term": "Spring 2028",
+    "session": "B",
+    "summary": "A culminating project demonstrating learning across the computer science program."
+  }
+]
