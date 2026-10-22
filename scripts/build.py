@@ -71,3 +71,10 @@ for code, section in reflection_sections.items():
  page.write_text(re.sub(r'<section class="content-section"><h2>Skills (?:&|&amp;) reflection</h2>.*?</section>', lambda m: section, page.read_text(), count=1, flags=re.S))
 cst349_page = ROOT / 'courses/cst-349.html'
 cst349_page.write_text(re.sub(r'<section class="content-section"><h2>Final project</h2>.*?</section>', lambda m: "<section class=\"content-section\"><h2>Final presentation</h2><div class=\"placeholder\"><span class=\"badge\">Video link coming after submission</span><h3>Technology familiarity and troubleshooting ability</h3><p>Our presentation examines the gap between being comfortable with technology and being effective at troubleshooting. The video link will be added once the assignment has been submitted.</p></div></section>", cst349_page.read_text(), count=1, flags=re.S))
+
+# CST 349 final video replaces the presentation and interview placeholders.
+cst349_page = ROOT / 'courses/cst-349.html'
+cst349_html = cst349_page.read_text()
+cst349_html = re.sub(r'<section class="content-section"><p class="eyebrow">REQUIRED COURSE ARTIFACT</p><h2>Industry Expert Interview Report</h2>.*?</section>', '', cst349_html, count=1, flags=re.S)
+cst349_html = re.sub(r'<section class="content-section"><h2>Final presentation</h2>.*?</section>', lambda m: "<section class=\"content-section\"><h2>Final project</h2><h3>The Tech Detective — Final Video</h3><p>Our presentation examines the gap between being comfortable with technology and being effective at troubleshooting.</p><p class=\"source-note\">Video link coming soon.</p></section>", cst349_html, count=1, flags=re.S)
+cst349_page.write_text(cst349_html)
